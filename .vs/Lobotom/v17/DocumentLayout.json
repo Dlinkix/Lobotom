@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\work\\UnityProject\\Lobotom\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\work\\UnityProject\\Lobotom\\Assets\\Editor\\NewMonoBehaviourScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Editor\\NewMonoBehaviourScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|d:\\work\\unityproject\\lobotom\\assets\\scripts\\uiscripts\\charactersselected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\charactersselected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|D:\\work\\UnityProject\\Lobotom\\assets\\scripts\\data\\menudata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\menudata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|D:\\work\\UnityProject\\Lobotom\\assets\\scripts\\uiscripts\\sceneswap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\sceneswap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewMonoBehaviourScript.cs",
+              "DocumentMoniker": "D:\\work\\UnityProject\\Lobotom\\Assets\\Editor\\NewMonoBehaviourScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\NewMonoBehaviourScript.cs",
+              "ToolTip": "D:\\work\\UnityProject\\Lobotom\\Assets\\Editor\\NewMonoBehaviourScript.cs",
+              "RelativeToolTip": "Assets\\Editor\\NewMonoBehaviourScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T19:11:33.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CharactersSelected.cs",
+              "DocumentMoniker": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\UiScripts\\CharactersSelected.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UiScripts\\CharactersSelected.cs",
+              "ToolTip": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\UiScripts\\CharactersSelected.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UiScripts\\CharactersSelected.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAAKkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T16:06:46.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuData.cs",
+              "DocumentMoniker": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Data\\MenuData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\MenuData.cs",
+              "ToolTip": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Data\\MenuData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\MenuData.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwDoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T15:02:09.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SceneSwap.cs",
+              "DocumentMoniker": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\UiScripts\\SceneSwap.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UiScripts\\SceneSwap.cs",
+              "ToolTip": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\UiScripts\\SceneSwap.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UiScripts\\SceneSwap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T12:28:51.877Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

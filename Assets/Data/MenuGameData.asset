@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6b944c6e6806c045be088d97dc8d072, type: 3}
+  m_Name: MenuGameData
+  m_EditorClassIdentifier: Assembly-CSharp::TowerDataMenu
+  Characters:
+  - id: 26
+    CharacterName: "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u0436 26"
+    Character: {fileID: 0}
+    Weapon: {fileID: 0}
+    Outfit: {fileID: 0}
+    bravery: 20
+    sapience: 20
+    excerpt: 20
+    justice: 20
+    lvl: 1
+  - id: 25
+    CharacterName: "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u0436 25"
+    Character: {fileID: 6284164617141774229, guid: fa5cd9a1349a6954189a2af2a1e54076, type: 3}
+    Weapon: {fileID: 0}
+    Outfit: {fileID: 0}
+    bravery: 20
+    sapience: 20
+    excerpt: 20
+    justice: 20
+    lvl: 1
+  Department:
+  - id: 0
+    depatmentName: 
+    Characters:
+    - id: 3
+      CharacterName: "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u0436 3"
+      Character: {fileID: 6284164617141774229, guid: fa5cd9a1349a6954189a2af2a1e54076, type: 3}
+      Weapon: {fileID: 0}
+      Outfit: {fileID: 0}
+      bravery: 20
+      sapience: 20
+      excerpt: 20
+      justice: 20
+      lvl: 1
+    - id: 18
+      CharacterName: "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u0436 18"
+      Character: {fileID: 6284164617141774229, guid: fa5cd9a1349a6954189a2af2a1e54076, type: 3}
+      Weapon: {fileID: 0}
+      Outfit: {fileID: 0}
+      bravery: 20
+      sapience: 20
+      excerpt: 20
+      justice: 20
+      lvl: 1
+    - id: 10
+      CharacterName: "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u0436 10"
+      Character: {fileID: 6284164617141774229, guid: fa5cd9a1349a6954189a2af2a1e54076, type: 3}
+      Weapon: {fileID: 0}
+      Outfit: {fileID: 0}
+      bravery: 20
+      sapience: 20
+      excerpt: 20
+      justice: 20
+      lvl: 1
+    - id: 27
+      CharacterName: "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u0436 27"
+      Character: {fileID: 6284164617141774229, guid: fa5cd9a1349a6954189a2af2a1e54076, type: 3}
+      Weapon: {fileID: 0}
+      Outfit: {fileID: 0}
+      bravery: 20
+      sapience: 20
+      excerpt: 20
+      justice: 20
+      lvl: 1
+    Anomaly: []
+    extensions: 0
+  - id: 0
+    depatmentName: FirstDepart
+    Characters:
+    - id: 0
+      CharacterName: "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u0436 0"
+      Character: {fileID: 6284164617141774229, guid: fa5cd9a1349a6954189a2af2a1e54076, type: 3}
+      Weapon: {fileID: 0}
+      Outfit: {fileID: 0}
+      bravery: 20
+      sapience: 20
+      excerpt: 20
+      justice: 20
+      lvl: 1
+    - id: 17
+      CharacterName: "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u0436 17"
+      Character: {fileID: 6284164617141774229, guid: fa5cd9a1349a6954189a2af2a1e54076, type: 3}
+      Weapon: {fileID: 0}
+      Outfit: {fileID: 0}
+      bravery: 20
+      sapience: 20
+      excerpt: 20
+      justice: 20
+      lvl: 1
+    - id: 4
+      CharacterName: "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u0436 4"
+      Character: {fileID: 6284164617141774229, guid: fa5cd9a1349a6954189a2af2a1e54076, type: 3}
+      Weapon: {fileID: 0}
+      Outfit: {fileID: 0}
+      bravery: 20
+      sapience: 20
+      excerpt: 20
+      justice: 20
+      lvl: 1
+    - id: 11
+      CharacterName: "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u0436 11"
+      Character: {fileID: 6284164617141774229, guid: fa5cd9a1349a6954189a2af2a1e54076, type: 3}
+      Weapon: {fileID: 0}
+      Outfit: {fileID: 0}
+      bravery: 20
+      sapience: 20
+      excerpt: 20
+      justice: 20
+      lvl: 1
+    - id: 20
+      CharacterName: "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u0436 20"
+      Character: {fileID: 6284164617141774229, guid: fa5cd9a1349a6954189a2af2a1e54076, type: 3}
+      Weapon: {fileID: 0}
+      Outfit: {fileID: 0}
+      bravery: 20
+      sapience: 20
+      excerpt: 20
+      justice: 20
+      lvl: 1
+    Anomaly: []
+    extensions: 1
+  - id: 0
+    depatmentName: FirstDepart
+    Characters:
+    - id: 19
+      CharacterName: "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u0436 19"
+      Character: {fileID: 6284164617141774229, guid: fa5cd9a1349a6954189a2af2a1e54076, type: 3}
+      Weapon: {fileID: 0}
+      Outfit: {fileID: 0}
+      bravery: 20
+      sapience: 20
+      excerpt: 20
+      justice: 20
+      lvl: 1
+    - id: 22
+      CharacterName: "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u0436 22"
+      Character: {fileID: 6284164617141774229, guid: fa5cd9a1349a6954189a2af2a1e54076, type: 3}
+      Weapon: {fileID: 0}
+      Outfit: {fileID: 0}
+      bravery: 20
+      sapience: 20
+      excerpt: 20
+      justice: 20
+      lvl: 1
+    - id: 23
+      CharacterName: "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u0436 23"
+      Character: {fileID: 6284164617141774229, guid: fa5cd9a1349a6954189a2af2a1e54076, type: 3}
+      Weapon: {fileID: 0}
+      Outfit: {fileID: 0}
+      bravery: 20
+      sapience: 20
+      excerpt: 20
+      justice: 20
+      lvl: 1
+    - id: 24
+      CharacterName: "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u0436 24"
+      Character: {fileID: 6284164617141774229, guid: fa5cd9a1349a6954189a2af2a1e54076, type: 3}
+      Weapon: {fileID: 0}
+      Outfit: {fileID: 0}
+      bravery: 20
+      sapience: 20
+      excerpt: 20
+      justice: 20
+      lvl: 1
+    - id: 21
+      CharacterName: "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u0436 21"
+      Character: {fileID: 6284164617141774229, guid: fa5cd9a1349a6954189a2af2a1e54076, type: 3}
+      Weapon: {fileID: 0}
+      Outfit: {fileID: 0}
+      bravery: 20
+      sapience: 20
+      excerpt: 20
+      justice: 20
+      lvl: 1
+    Anomaly: []
+    extensions: 1
