@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eb179b9f4c8e984e99f596ad0b58037, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: Assembly-CSharp::RoomsData
+  rooms:
+  - id: Main
+    name: Main
+    department: Main
+    floor: 0
+    type: 0
+    connections:
+    - Anomaly
+    - room
+    - room7
+    - Anomaly1
+    position: {x: 0, y: 0}
+  - id: Anomaly
+    name: Anomaly
+    department: Main
+    floor: 0
+    type: 1
+    connections:
+    - Main
+    - Main_AnomalyCell_1
+    position: {x: 0, y: 0}
+  - id: room
+    name: room
+    department: Main
+    floor: 0
+    type: 1
+    connections:
+    - room2
+    - Main
+    position: {x: 0, y: 0}
+  - id: room2
+    name: room2
+    department: Main
+    floor: 0
+    type: 1
+    connections:
+    - room
+    - Elevator
+    position: {x: 0, y: 0}
+  - id: Elevator
+    name: Elevator
+    department: Main
+    floor: 0
+    type: 2
+    connections:
+    - room2
+    - room3
+    position: {x: 0, y: 0}
+  - id: room3
+    name: room3
+    department: Main
+    floor: 0
+    type: 1
+    connections:
+    - Elevator
+    - room4
+    position: {x: 0, y: 0}
+  - id: room4
+    name: room4
+    department: Main
+    floor: 0
+    type: 1
+    connections:
+    - room3
+    - room5
+    - Main_AnomalyCell_3
+    position: {x: 0, y: 0}
+  - id: room5
+    name: room5
+    department: Main
+    floor: 0
+    type: 1
+    connections:
+    - room4
+    - room6
+    - Main_AnomalyCell_4
+    position: {x: 0, y: 0}
+  - id: room6
+    name: room6
+    department: Main
+    floor: 0
+    type: 1
+    connections:
+    - room5
+    - Elevator1
+    position: {x: 0, y: 0}
+  - id: Elevator1
+    name: Elevator1
+    department: Main
+    floor: 0
+    type: 2
+    connections:
+    - room6
+    - room8
+    position: {x: 0, y: 0}
+  - id: room8
+    name: room8
+    department: Main
+    floor: 0
+    type: 2
+    connections:
+    - Elevator1
+    - room7
+    position: {x: 0, y: 0}
+  - id: room7
+    name: room7
+    department: Main
+    floor: 0
+    type: 2
+    connections:
+    - Main
+    - room8
+    position: {x: 0, y: 0}
+  - id: Anomaly1
+    name: Anomaly1
+    department: Main
+    floor: 0
+    type: 1
+    connections:
+    - Main
+    - Main_AnomalyCell_2
+    position: {x: 0, y: 0}
+  - id: Main_AnomalyCell_1
+    name: Main_AnomalyCell_1
+    department: Main
+    floor: 0
+    type: 3
+    connections:
+    - Anomaly
+    position: {x: 0, y: 0}
+  - id: Main_AnomalyCell_2
+    name: Main_AnomalyCell_2
+    department: Main
+    floor: 0
+    type: 3
+    connections:
+    - Anomaly1
+    position: {x: 0, y: 0}
+  - id: Main_AnomalyCell_3
+    name: Main_AnomalyCell_3
+    department: Main
+    floor: 0
+    type: 3
+    connections:
+    - room4
+    position: {x: 0, y: 0}
+  - id: Main_AnomalyCell_4
+    name: Main_AnomalyCell_4
+    department: Main
+    floor: 0
+    type: 3
+    connections:
+    - room5
+    position: {x: 0, y: 0}

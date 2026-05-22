@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5594845914526763097}
   - component: {fileID: 8050839492617885352}
   - component: {fileID: -1361457392051436094}
+  - component: {fileID: 5320837359360495742}
   m_Layer: 5
   m_Name: Char
   m_TagString: Untagged
@@ -36,7 +37,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 1, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5594845914526763097
 CanvasRenderer:
@@ -66,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 4554919622726274350, guid: bbd1ceedd57638648ac65a549953d20f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -120,3 +121,44 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &5320837359360495742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6284164617141774229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90a5322db8b5dd14cb3bb75d82684dfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Agent
+  agentName: "\u0410\u0433\u0435\u043D\u0442"
+  speed: 2
+  currentRoom: {fileID: 0}
+  StayRoom: {fileID: 0}
+  currentState: 0
+  enableAI: 1
+  idleMoveDelay: 3
+  selectedColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  normalColor: {r: 1, g: 1, b: 1, a: 1}
+  workingColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  fightColor: {r: 1, g: 0, b: 0, a: 1}
+  dieColor: {r: 0, g: 0, b: 0, a: 1}
+  characterData:
+    id: 0
+    startRoomID: 
+    CharacterName: dabydaby
+    Character: {fileID: 0}
+    Weapon: {fileID: 0}
+    Outfit: {fileID: 0}
+    bravery: 20
+    sapience: 20
+    excerpt: 20
+    justice: 20
+    lvl: 1
+    braveryLevel: 0
+    sapienceLevel: 0
+    excerptLevel: 0
+    justiceLevel: 0
+  currentPath: []

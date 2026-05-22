@@ -11,11 +11,14 @@ public class CharactersSelected : MonoBehaviour
     [SerializeField] public Canvas canvas;
     [SerializeField] public GameObject CharacterStanding;
     [SerializeField] public GameObject Character;
+    [SerializeField] public GameObject AnomalyPrefab;
     public GameDataMenu gameDataMenu;
     [SerializeField] public int characterID;
-    [SerializeField] public List<Transform> departments;
+    [Header("Департаменты")]
+    [SerializeField] public List<Transform> departments;         
+    [SerializeField] public List<Transform> anomalyDepartments;
     [SerializeField] public GameObject plaseholder;
-
+    public RoomsData roomsData;
     private GameObject draggedCharacter;
     private Mouse mouse;
     private List<RectTransform> departmentRects;
@@ -56,6 +59,62 @@ public class CharactersSelected : MonoBehaviour
             draggedCharacter = null;
             isDragging = false;
         }
+    }
+    private void LoadAnomalies()
+    {
+        if (gameDataMenu == null || gameDataMenu.Department == null) return;
+
+        for (int i = 0; i < gameDataMenu.Department.Count && i < anomalyDepartments.Count; i++)
+        {
+            if (anomalyDepartments[i] == null) continue;
+
+            // Очищаем старые аномалии в этом департаменте
+            foreach (Transform child in anomalyDepartments[i])
+                Destroy(child.gameObject);
+
+            foreach (var anomalyData in gameDataMenu.Department[i].Anomaly)
+            {
+                if (anomalyData == null) continue;
+
+                // Создаём объект аномалии для отображения
+                GameObject anomalyObj = CreateAnomalyVisual(anomalyData);
+                anomalyObj.transform.SetParent(anomalyDepartments[i]);
+                anomalyObj.transform.localScale = Vector3.one;
+                anomalyObj.transform.localPosition = Vector3.zero;
+            }
+        }
+    }
+    private GameObject CreateAnomalyVisual(GameDataMenu.Abnormality anomalyData)
+    {
+        GameObject anomalyObj;
+
+        if (AnomalyPrefab != null)
+        {
+            anomalyObj = Instantiate(AnomalyPrefab);
+        }
+        else
+        {
+            anomalyObj = new GameObject(anomalyData.abnormalityName);
+            anomalyObj.AddComponent<RectTransform>();
+        }
+
+        // Добавляем Image для отображения иконки
+        Image image = anomalyObj.GetComponent<Image>();
+        if (image == null)
+            image = anomalyObj.AddComponent<Image>();
+
+        if (anomalyData.icon != null)
+        {
+            image.sprite = anomalyData.icon;
+        }
+        else if (anomalyData.imageAbnormaly != null)
+        {
+            image.sprite = anomalyData.imageAbnormaly;
+        }
+
+        anomalyObj.name = anomalyData.abnormalityName;
+
+        return anomalyObj;
     }
 
     public void ButtonHire()
@@ -103,6 +162,15 @@ public class CharactersSelected : MonoBehaviour
             foreach (Transform child in departments[i])
                 Destroy(child.gameObject);
         }
+
+        for (int i = 0; i < anomalyDepartments.Count; i++)
+        {
+            if (anomalyDepartments[i] == null) continue;
+            foreach (Transform child in anomalyDepartments[i])
+                Destroy(child.gameObject);
+        }
+
+        LoadAnomalies();
 
         foreach (var characterData in gameDataMenu.Characters)
         {
@@ -206,6 +274,10 @@ public class CharactersSelected : MonoBehaviour
                         newCharacterData.Character = Character;
                     }
 
+                    string roomId = GetRoomIdByDepartmentIndex(i);
+                    newCharacterData.startRoomID = roomId;
+                    Debug.Log($"Персонажу {newCharacterData.CharacterName} назначена комната {roomId}");
+
                     if (gameDataMenu.Department == null)
                         gameDataMenu.Department = new List<GameDataMenu.DepartmentData>();
 
@@ -220,6 +292,36 @@ public class CharactersSelected : MonoBehaviour
         }
 
         ReturnToStanding();
+    }
+
+    private string GetRoomIdByDepartmentIndex(int departmentIndex)
+    {
+        string departmentName = GetDepartmentName(departmentIndex);
+
+        if (roomsData != null)
+        {
+            foreach (RoomData roomData in roomsData.rooms)
+            {
+                if (roomData.department == departmentName && roomData.type == RoomType.MainRoom)
+                {
+                    return roomData.id;
+                }
+            }
+        }
+
+        if (departmentIndex == 0) return "Main";
+        if (departmentIndex == 1) return "Safe";
+        if (departmentIndex == 2) return "Training";
+
+        return "Main";
+    }
+
+    private string GetDepartmentName(int index)
+    {
+        string[] deptNames = { "Main", "Training", "Safe" };
+        if (index < deptNames.Length)
+            return deptNames[index];
+        return "Unknown";
     }
 
     private void ReturnToStanding()
@@ -248,7 +350,10 @@ public class CharactersSelected : MonoBehaviour
 
         return gameDataMenu.Department[departmentIndex].Characters?.Count ?? 0;
     }
-
+    public void RefreshAnomaliesDisplay()
+    {
+        LoadAnomalies();  // Просто перезагружаем отображение аномалий
+    }
     private int GetDraggedCharacterId()
     {
         CharacterDragHandler handler = draggedCharacter.GetComponent<CharacterDragHandler>();

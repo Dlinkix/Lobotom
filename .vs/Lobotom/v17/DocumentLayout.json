@@ -3,20 +3,76 @@
   "WorkspaceRootPath": "D:\\work\\UnityProject\\Lobotom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\work\\UnityProject\\Lobotom\\Assets\\Editor\\NewMonoBehaviourScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Editor\\NewMonoBehaviourScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|d:\\work\\unityproject\\lobotom\\assets\\scripts\\uiscripts\\sound\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\sound\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|d:\\work\\unityproject\\lobotom\\assets\\scripts\\uiscripts\\charactersselected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\charactersselected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|D:\\work\\UnityProject\\Lobotom\\assets\\scripts\\data\\menudata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\menudata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|D:\\work\\UnityProject\\Lobotom\\assets\\scripts\\core\\game\\anomalycs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\game\\anomalycs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|D:\\work\\UnityProject\\Lobotom\\assets\\scripts\\uiscripts\\sceneswap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\sceneswap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|D:\\work\\UnityProject\\Lobotom\\assets\\scripts\\data\\buttonresetdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\buttonresetdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|d:\\work\\unityproject\\lobotom\\assets\\scripts\\data\\menudata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\menudata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|D:\\work\\UnityProject\\Lobotom\\assets\\scripts\\core\\clickhendler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\clickhendler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|D:\\work\\UnityProject\\Lobotom\\assets\\scripts\\core\\game\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\game\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|D:\\work\\UnityProject\\Lobotom\\assets\\scripts\\core\\menu\\abnormalityadder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\menu\\abnormalityadder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|D:\\work\\UnityProject\\Lobotom\\assets\\scripts\\core\\global\\loaddatagame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\global\\loaddatagame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|D:\\work\\UnityProject\\Lobotom\\assets\\scripts\\data\\abnormalitydatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\abnormalitydatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|D:\\work\\UnityProject\\Lobotom\\assets\\scripts\\core\\agent\\workmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\agent\\workmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|D:\\work\\UnityProject\\Lobotom\\assets\\scripts\\core\\game\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\game\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|D:\\work\\UnityProject\\Lobotom\\assets\\scripts\\uiscripts\\charactersselected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\charactersselected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|D:\\work\\UnityProject\\Lobotom\\assets\\scripts\\core\\agent\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\agent\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|D:\\work\\UnityProject\\Lobotom\\assets\\scripts\\data\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|D:\\work\\UnityProject\\Lobotom\\assets\\scripts\\core\\global\\globalupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\global\\globalupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|D:\\work\\UnityProject\\Lobotom\\assets\\scripts\\core\\global\\levelloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\global\\levelloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|D:\\work\\UnityProject\\Lobotom\\assets\\scripts\\core\\agent\\agentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659E0788-3C91-9E32-34DF-F0D2F7E045C9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\agent\\agentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,62 +82,229 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NewMonoBehaviourScript.cs",
-              "DocumentMoniker": "D:\\work\\UnityProject\\Lobotom\\Assets\\Editor\\NewMonoBehaviourScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Editor\\NewMonoBehaviourScript.cs",
-              "ToolTip": "D:\\work\\UnityProject\\Lobotom\\Assets\\Editor\\NewMonoBehaviourScript.cs",
-              "RelativeToolTip": "Assets\\Editor\\NewMonoBehaviourScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AnomalyCS.cs",
+              "DocumentMoniker": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Core\\Game\\AnomalyCS.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Game\\AnomalyCS.cs",
+              "ToolTip": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Core\\Game\\AnomalyCS.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Game\\AnomalyCS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T19:11:33.63Z",
+              "WhenOpened": "2026-05-20T16:36:05.305Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\UiScripts\\Sound\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UiScripts\\Sound\\AudioManager.cs",
+              "ToolTip": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\UiScripts\\Sound\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UiScripts\\Sound\\AudioManager.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwDEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T08:26:22.169Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CharactersSelected.cs",
-              "DocumentMoniker": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\UiScripts\\CharactersSelected.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UiScripts\\CharactersSelected.cs",
-              "ToolTip": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\UiScripts\\CharactersSelected.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UiScripts\\CharactersSelected.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAAAKkAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Core\\Game\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Game\\GameManager.cs",
+              "ToolTip": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Core\\Game\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Game\\GameManager.cs",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAAACIBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T16:06:46.538Z",
+              "WhenOpened": "2026-05-22T05:19:07.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ButtonResetData.cs",
+              "DocumentMoniker": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Data\\ButtonResetData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\ButtonResetData.cs",
+              "ToolTip": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Data\\ButtonResetData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\ButtonResetData.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAGQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T04:09:25.448Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MenuData.cs",
-              "DocumentMoniker": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Data\\MenuData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\MenuData.cs",
-              "ToolTip": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Data\\MenuData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Data\\MenuData.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAUwDoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T15:02:09.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "SceneSwap.cs",
               "DocumentMoniker": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\UiScripts\\SceneSwap.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UiScripts\\SceneSwap.cs",
               "ToolTip": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\UiScripts\\SceneSwap.cs",
               "RelativeToolTip": "Assets\\Scripts\\UiScripts\\SceneSwap.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T12:28:51.877Z"
+              "WhenOpened": "2026-05-22T03:39:14.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Clickhendler.cs",
+              "DocumentMoniker": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Core\\Clickhendler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Clickhendler.cs",
+              "ToolTip": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Core\\Clickhendler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Clickhendler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T13:37:37.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuData.cs",
+              "DocumentMoniker": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Data\\MenuData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\MenuData.cs",
+              "ToolTip": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Data\\MenuData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\MenuData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T17:00:58.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AbnormalityAdder.cs",
+              "DocumentMoniker": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Core\\Menu\\AbnormalityAdder.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Menu\\AbnormalityAdder.cs",
+              "ToolTip": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Core\\Menu\\AbnormalityAdder.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Menu\\AbnormalityAdder.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAHIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T22:49:33.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AbnormalityDataBase.cs",
+              "DocumentMoniker": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Data\\AbnormalityDataBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\AbnormalityDataBase.cs",
+              "ToolTip": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Data\\AbnormalityDataBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\AbnormalityDataBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T22:01:38.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoadDataGame.cs",
+              "DocumentMoniker": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Core\\Global\\LoadDataGame.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Global\\LoadDataGame.cs",
+              "ToolTip": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Core\\Global\\LoadDataGame.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Global\\LoadDataGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T17:34:50.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WorkManager.cs",
+              "DocumentMoniker": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Core\\Agent\\WorkManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Agent\\WorkManager.cs",
+              "ToolTip": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Core\\Agent\\WorkManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Agent\\WorkManager.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAG4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T17:39:35.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Room.cs",
+              "DocumentMoniker": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Core\\Game\\Room.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Game\\Room.cs",
+              "ToolTip": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Core\\Game\\Room.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Game\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T18:26:20.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CharactersSelected.cs",
+              "DocumentMoniker": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\UiScripts\\CharactersSelected.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UiScripts\\CharactersSelected.cs",
+              "ToolTip": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\UiScripts\\CharactersSelected.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UiScripts\\CharactersSelected.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAAANgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T23:29:51.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Agent.cs",
+              "DocumentMoniker": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Core\\Agent\\Agent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Agent\\Agent.cs",
+              "ToolTip": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Core\\Agent\\Agent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Agent\\Agent.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAAAPAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T17:32:57.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GameData.cs",
+              "DocumentMoniker": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Data\\GameData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\GameData.cs",
+              "ToolTip": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Data\\GameData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\GameData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T14:26:37.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GlobalUpdate.cs",
+              "DocumentMoniker": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Core\\Global\\GlobalUpdate.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Global\\GlobalUpdate.cs",
+              "ToolTip": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Core\\Global\\GlobalUpdate.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Global\\GlobalUpdate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T02:51:01.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LevelLoader.cs",
+              "DocumentMoniker": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Core\\Global\\LevelLoader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Global\\LevelLoader.cs",
+              "ToolTip": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Core\\Global\\LevelLoader.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Global\\LevelLoader.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwB0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T00:55:40.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AgentManager.cs",
+              "DocumentMoniker": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Core\\Agent\\AgentManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Agent\\AgentManager.cs",
+              "ToolTip": "D:\\work\\UnityProject\\Lobotom\\Assets\\Scripts\\Core\\Agent\\AgentManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\Agent\\AgentManager.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAYwIYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T17:33:21.311Z"
             }
           ]
         }

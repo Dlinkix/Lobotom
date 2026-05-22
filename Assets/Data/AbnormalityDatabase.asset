@@ -1,0 +1,369 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c60ff35bf07df04b9e83d82cfee389a, type: 3}
+  m_Name: AbnormalityDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::AbnormalityDatabase
+  allAbnormalities:
+  - abnormalityName: Big Bird
+    id: 2
+    startRoomID: 
+    prefab: {fileID: 6284164617141774229, guid: 34955b8e543b22c45a5dbfbe9fdde33a, type: 3}
+    width: 3
+    height: 3.5
+    icon: {fileID: 8627201243250715720, guid: 7bd1564221ea7c04db08e98f6a268ea1, type: 3}
+    imageAbnormaly: {fileID: -4241949979074045295, guid: 1e9c5b0c8785a5f46bbb9ecc3a5f1c3d, type: 3}
+    lvl: 1
+    peBoxReward: 18
+    danger: 
+    Discription: 
+    egoSuit:
+      name: 
+      cost: 0
+      defense: 0
+      resistanceRad: 0
+      resistanceWhite: 0
+      resistanceBlack: 0
+      resistancePale: 0
+    egoWeapon:
+      name: 
+      damage: 0
+      range: 0
+      attackSpeed: 0
+    egoGift:
+      name: 
+      slot: 
+      statBonus: 0
+    instinctWork:
+      name: 
+      level1SuccessChance: 0.8
+      level2SuccessChance: 0.8
+      level3SuccessChance: 0.8
+      level4SuccessChance: 0.8
+      level5SuccessChance: 0.8
+    insightWork:
+      name: 
+      level1SuccessChance: 0.3
+      level2SuccessChance: 0.3
+      level3SuccessChance: 0.3
+      level4SuccessChance: 0.3
+      level5SuccessChance: 0.3
+    attachmentWork:
+      name: 
+      level1SuccessChance: 0.8
+      level2SuccessChance: 0.8
+      level3SuccessChance: 0.8
+      level4SuccessChance: 0.8
+      level5SuccessChance: 0.8
+    repressionWork:
+      name: 
+      level1SuccessChance: 0.3
+      level2SuccessChance: 0.3
+      level3SuccessChance: 0.3
+      level4SuccessChance: 0.3
+      level5SuccessChance: 0.3
+    canEscape: 0
+    qliphothCounter: 0
+  - abnormalityName: Helper
+    id: 3
+    startRoomID: 
+    prefab: {fileID: 6284164617141774229, guid: 34955b8e543b22c45a5dbfbe9fdde33a, type: 3}
+    width: 3
+    height: 3.5
+    icon: {fileID: 6565622435471040137, guid: 1559b77222132dc43aed41fcd2dc09a5, type: 3}
+    imageAbnormaly: {fileID: 3410899437950921664, guid: 3023322fa6008d94887b7170424a3de0, type: 3}
+    lvl: 1
+    peBoxReward: 14
+    danger: 
+    Discription: 
+    egoSuit:
+      name: 
+      cost: 0
+      defense: 0
+      resistanceRad: 0
+      resistanceWhite: 0
+      resistanceBlack: 0
+      resistancePale: 0
+    egoWeapon:
+      name: 
+      damage: 0
+      range: 0
+      attackSpeed: 0
+    egoGift:
+      name: 
+      slot: 
+      statBonus: 0
+    instinctWork:
+      name: 
+      level1SuccessChance: 0.8
+      level2SuccessChance: 0.8
+      level3SuccessChance: 0.8
+      level4SuccessChance: 0.8
+      level5SuccessChance: 0.8
+    insightWork:
+      name: 
+      level1SuccessChance: 0.2
+      level2SuccessChance: 0.2
+      level3SuccessChance: 0.2
+      level4SuccessChance: 0.2
+      level5SuccessChance: 0.2
+    attachmentWork:
+      name: 
+      level1SuccessChance: 0.2
+      level2SuccessChance: 0.2
+      level3SuccessChance: 0.2
+      level4SuccessChance: 0.2
+      level5SuccessChance: 0.2
+    repressionWork:
+      name: 
+      level1SuccessChance: 0.8
+      level2SuccessChance: 0.8
+      level3SuccessChance: 0.8
+      level4SuccessChance: 0.8
+      level5SuccessChance: 0.8
+    canEscape: 0
+    qliphothCounter: 0
+  - abnormalityName: Murder
+    id: 4
+    startRoomID: 
+    prefab: {fileID: 6284164617141774229, guid: 34955b8e543b22c45a5dbfbe9fdde33a, type: 3}
+    width: 3
+    height: 3.5
+    icon: {fileID: 7634179418838431126, guid: ccbceabb77fa2d24184b0fcd9c99ff9d, type: 3}
+    imageAbnormaly: {fileID: -2656501651142191293, guid: 26675c9976791e440815abf4065be047, type: 3}
+    lvl: 1
+    peBoxReward: 12
+    danger: 
+    Discription: 
+    egoSuit:
+      name: 
+      cost: 0
+      defense: 0
+      resistanceRad: 0
+      resistanceWhite: 0
+      resistanceBlack: 0
+      resistancePale: 0
+    egoWeapon:
+      name: 
+      damage: 0
+      range: 0
+      attackSpeed: 0
+    egoGift:
+      name: 
+      slot: 
+      statBonus: 0
+    instinctWork:
+      name: 
+      level1SuccessChance: 0.8
+      level2SuccessChance: 0.8
+      level3SuccessChance: 0.8
+      level4SuccessChance: 0.8
+      level5SuccessChance: 0.8
+    insightWork:
+      name: 
+      level1SuccessChance: 0.4
+      level2SuccessChance: 0.4
+      level3SuccessChance: 0.4
+      level4SuccessChance: 0.4
+      level5SuccessChance: 0.4
+    attachmentWork:
+      name: 
+      level1SuccessChance: 0.8
+      level2SuccessChance: 0.8
+      level3SuccessChance: 0.8
+      level4SuccessChance: 0.8
+      level5SuccessChance: 0.8
+    repressionWork:
+      name: 
+      level1SuccessChance: 0.1
+      level2SuccessChance: 0.1
+      level3SuccessChance: 0.1
+      level4SuccessChance: 0.1
+      level5SuccessChance: 0.1
+    canEscape: 0
+    qliphothCounter: 0
+  - abnormalityName: Censored
+    id: 0
+    startRoomID: 
+    prefab: {fileID: 6284164617141774229, guid: 34955b8e543b22c45a5dbfbe9fdde33a, type: 3}
+    width: 3
+    height: 3.5
+    icon: {fileID: 3960105845037410467, guid: ae08cb33577b9e24ca50460e67ad4a8f, type: 3}
+    imageAbnormaly: {fileID: 5467198169163178735, guid: f51bd44e67ec5c94eb5a159e70c055c1, type: 3}
+    lvl: 1
+    peBoxReward: 32
+    danger: 
+    Discription: 
+    egoSuit:
+      name: 
+      cost: 0
+      defense: 0
+      resistanceRad: 0
+      resistanceWhite: 0
+      resistanceBlack: 0
+      resistancePale: 0
+    egoWeapon:
+      name: 
+      damage: 0
+      range: 0
+      attackSpeed: 0
+    egoGift:
+      name: 
+      slot: 
+      statBonus: 0
+    instinctWork:
+      name: 
+      level1SuccessChance: 0.3
+      level2SuccessChance: 0.3
+      level3SuccessChance: 0.3
+      level4SuccessChance: 0.3
+      level5SuccessChance: 0.3
+    insightWork:
+      name: 
+      level1SuccessChance: 0.8
+      level2SuccessChance: 0.8
+      level3SuccessChance: 0.8
+      level4SuccessChance: 0.8
+      level5SuccessChance: 0.8
+    attachmentWork:
+      name: 
+      level1SuccessChance: 0.3
+      level2SuccessChance: 0.3
+      level3SuccessChance: 0.3
+      level4SuccessChance: 0.3
+      level5SuccessChance: 0.3
+    repressionWork:
+      name: 
+      level1SuccessChance: 0.3
+      level2SuccessChance: 0.3
+      level3SuccessChance: 0.3
+      level4SuccessChance: 0.3
+      level5SuccessChance: 0.3
+    canEscape: 0
+    qliphothCounter: 0
+  - abnormalityName: Naked
+    id: 6
+    startRoomID: 
+    prefab: {fileID: 6284164617141774229, guid: 34955b8e543b22c45a5dbfbe9fdde33a, type: 3}
+    width: 3
+    height: 3.5
+    icon: {fileID: -3390375069356326773, guid: 16524900d8dca624bb2161f8d5548b8e, type: 3}
+    imageAbnormaly: {fileID: -1137204054351328426, guid: b5812f78c71ad1f49a5b1e66a1d868a6, type: 3}
+    lvl: 1
+    peBoxReward: 20
+    danger: 
+    Discription: 
+    egoSuit:
+      name: 
+      cost: 0
+      defense: 0
+      resistanceRad: 0
+      resistanceWhite: 0
+      resistanceBlack: 0
+      resistancePale: 0
+    egoWeapon:
+      name: 
+      damage: 0
+      range: 0
+      attackSpeed: 0
+    egoGift:
+      name: 
+      slot: 
+      statBonus: 0
+    instinctWork:
+      name: 
+      level1SuccessChance: 0.5
+      level2SuccessChance: 0.5
+      level3SuccessChance: 0.5
+      level4SuccessChance: 0.5
+      level5SuccessChance: 0.5
+    insightWork:
+      name: 
+      level1SuccessChance: 0.5
+      level2SuccessChance: 0.5
+      level3SuccessChance: 0.5
+      level4SuccessChance: 0.5
+      level5SuccessChance: 0
+    attachmentWork:
+      name: 
+      level1SuccessChance: 0.5
+      level2SuccessChance: 0.5
+      level3SuccessChance: 0.5
+      level4SuccessChance: 0.5
+      level5SuccessChance: 0.5
+    repressionWork:
+      name: 
+      level1SuccessChance: 0.5
+      level2SuccessChance: 0.5
+      level3SuccessChance: 0.5
+      level4SuccessChance: 0.5
+      level5SuccessChance: 0.5
+    canEscape: 0
+    qliphothCounter: 0
+  - abnormalityName: Smiling Face
+    id: 5
+    startRoomID: 
+    prefab: {fileID: 6284164617141774229, guid: 34955b8e543b22c45a5dbfbe9fdde33a, type: 3}
+    width: 3
+    height: 3.5
+    icon: {fileID: 8290263540094041634, guid: b8e971a0a3908374e9103c31c19b37be, type: 3}
+    imageAbnormaly: {fileID: -4450376092157965963, guid: db0d913d8e1ce8a448ae3d8a5ad07715, type: 3}
+    lvl: 1
+    peBoxReward: 30
+    danger: 
+    Discription: 
+    egoSuit:
+      name: 
+      cost: 0
+      defense: 0
+      resistanceRad: 0
+      resistanceWhite: 0
+      resistanceBlack: 0
+      resistancePale: 0
+    egoWeapon:
+      name: 
+      damage: 0
+      range: 0
+      attackSpeed: 0
+    egoGift:
+      name: 
+      slot: 
+      statBonus: 0
+    instinctWork:
+      name: 
+      level1SuccessChance: 0.8
+      level2SuccessChance: 0.8
+      level3SuccessChance: 0.8
+      level4SuccessChance: 0.8
+      level5SuccessChance: 0.8
+    insightWork:
+      name: 
+      level1SuccessChance: 0.2
+      level2SuccessChance: 0.2
+      level3SuccessChance: 0.2
+      level4SuccessChance: 0.2
+      level5SuccessChance: 0.2
+    attachmentWork:
+      name: 
+      level1SuccessChance: 0.2
+      level2SuccessChance: 0.2
+      level3SuccessChance: 0.2
+      level4SuccessChance: 0.2
+      level5SuccessChance: 0.2
+    repressionWork:
+      name: 
+      level1SuccessChance: 0.8
+      level2SuccessChance: 0.8
+      level3SuccessChance: 0.8
+      level4SuccessChance: 0.8
+      level5SuccessChance: 0.8
+    canEscape: 0
+    qliphothCounter: 0
