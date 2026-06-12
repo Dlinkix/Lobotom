@@ -8,31 +8,33 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    container:
+      image: unityci/editor:windows-mono-6000.3.3f1
+
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/cache@v3
+      - name: Кэширование Library
+        uses: actions/cache@v3
         with:
           path: Library
           key: Library-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
           restore-keys: |
             Library-
 
-      - name: Установка Unity
-        uses: jlpm/unity-setup@v1
-        with:
-          unity-version: 6000.3.3f1
-          target-platforms: standalone
+      - name: Сборка Windows билда
+        run: |
+          /opt/unity/Editor/Unity \
+            -quit \
+            -batchmode \
+            -nographics \
+            -projectPath . \
+            -buildWindows64Player build/MyGame.exe \
+            -logFile build.log
+          cat build.log
 
-      - name: Сборка проекта
-        uses: jlpm/unity-builder@v1
-        with:
-          unity-version: 6000.3.3f1
-          target-platform: StandaloneWindows64
-          build-name: MyGame
-          build-path: build
-
-      - uses: actions/upload-artifact@v4
+      - name: Загрузка артефакта
+        uses: actions/upload-artifact@v4
         with:
           name: MyGame-Windows
-          path: build/StandaloneWindows64/
+          path: build/
