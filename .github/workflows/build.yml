@@ -1,40 +1,48 @@
-name: Сборка Unity Windows
+name: Unity Windows Build
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
+  pull_request:
   workflow_dispatch:
 
 jobs:
-  build:
+  build-windows:
+    name: Build StandaloneWindows64
     runs-on: ubuntu-latest
-    container:
-      image: unityci/editor:windows-mono-6000.3.3f1
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          lfs: true
 
-      - name: Кэширование Library
-        uses: actions/cache@v3
+      - name: Cache Library
+        uses: actions/cache@v4
         with:
           path: Library
-          key: Library-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
+          key: Library-StandaloneWindows64-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
           restore-keys: |
+            Library-StandaloneWindows64-
             Library-
 
-      - name: Сборка Windows билда
-        run: |
-          /opt/unity/Editor/Unity \
-            -quit \
-            -batchmode \
-            -nographics \
-            -projectPath . \
-            -buildWindows64Player build/MyGame.exe \
-            -logFile build.log
-          cat build.log
+      - name: Build project
+        uses: game-ci/unity-builder@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          targetPlatform: StandaloneWindows64
+          unityVersion: 6000.3.3f1
+          buildMethod: Lobotom.Build.Editor.BuildCommand.BuildWindows64
+          buildsPath: build
+          allowDirtyBuild: true
 
-      - name: Загрузка артефакта
+      - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
-          name: MyGame-Windows
-          path: build/
+          name: Lobotom-Windows
+          path: build/StandaloneWindows64
+          if-no-files-found: error
