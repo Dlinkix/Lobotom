@@ -1,12 +1,13 @@
 using System.IO;
 using System.Linq;
 using UnityEditor;
+using UnityEditor.Build;
 
 namespace Lobotom.Build.Editor
 {
     public static class BuildCommand
     {
-        public static void BuildWindows64()
+        public static void BuildWindows64(string[] args) 
         {
             var enabledScenes = EditorBuildSettings.scenes
                 .Where(scene => scene.enabled)
