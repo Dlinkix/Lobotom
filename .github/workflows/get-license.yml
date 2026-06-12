@@ -1,20 +1,22 @@
-name: Получить файл лицензии Unity
+name: Request Unity Activation File
 
-on: 
-  workflow_dispatch:  # Запускать вручную
+on:
+  workflow_dispatch:
 
 jobs:
   get-license:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Запросить файл ручной активации
+      - name: Request manual activation file
         uses: game-ci/unity-request-activation-file@v2
         id: getManualLicenseFile
         with:
-          unityVersion: 6000.3.3f1  # Ваша версия Unity
+          unityVersion: 6000.3.3f1
 
-      - name: Выгрузить файл .alf
+      - name: Upload .alf artifact
         uses: actions/upload-artifact@v4
         with:
           name: activation_request
           path: ${{ steps.getManualLicenseFile.outputs.filePath }}
+          if-no-files-found: error
