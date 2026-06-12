@@ -7,7 +7,7 @@ namespace Lobotom.Build.Editor
 {
     public static class BuildCommand
     {
-        public static void BuildWindows64(string[] args) 
+        public static void BuildWindows64()  
         {
             var enabledScenes = EditorBuildSettings.scenes
                 .Where(scene => scene.enabled)
